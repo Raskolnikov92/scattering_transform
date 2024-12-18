@@ -7,6 +7,7 @@ from scattering.backend import cdgmm, Modulus, SubsampleFourier, Pad, mulcu, \
     padc, conjugate, maskns, masks_subsample_shift3, \
     extract_shift3
 from scattering.FiltersSet import FiltersSet
+import torch
 
 if __name__ == "__main__":
     AlphaScattering2d_cov()
